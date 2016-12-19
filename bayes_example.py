@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 import sys
 
 # Csvleri panda dataframelere dönüştürme işlemi
-Xtest = pd.read_csv("mnist_csv/Xtest.txt", header=None)
-Xtrain = pd.read_csv("mnist_csv/Xtrain.txt", header=None)
-Ytest = pd.read_csv("mnist_csv/label_test.txt", header=None)
-Ytrain = pd.read_csv("mnist_csv/label_train.txt", header=None)
+Xtest = pd.read_csv("Xtest.txt", header=None)
+Xtrain = pd.read_csv("Xtrain.txt", header=None)
+Ytest = pd.read_csv("label_test.txt", header=None)
+Ytrain = pd.read_csv("label_train.txt", header=None)
 
 class Bayes(object):
     def fit(self, X, y):
